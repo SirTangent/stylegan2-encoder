@@ -24,9 +24,10 @@ cuda_cache_version_tag = 'v1'
 do_not_hash_included_headers = False # Speed up compilation by assuming that headers included by the CUDA code never change. Unsafe!
 verbose = True # Print status messages to stdout.
 
+// TODO: Dynamically detect MSVC paths
 compiler_bindir_search_path = [
     'C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.14.26428/bin/Hostx64/x64',
-    'C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.23.28105/bin/Hostx64/x64',
+    'C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29333/bin/Hostx64/x64',
     'C:/Program Files (x86)/Microsoft Visual Studio 14.0/vc/bin',
 ]
 
